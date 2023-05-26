@@ -1,0 +1,25 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open test",
+    "report": "allure generate allure-results --clean -o allure-report || true",
+    "smoke": "cypress run --browser chrome  --spec '**/e2e/smoke/*.js**' --reporter mocha-allure-reporter --headed",
+     "executeRegression_ExcludeFS": "cypress run --browser chrome  --spec '**/e2e/*.js**' --reporter mocha-allure-reporter --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kotapatic5/CypressTestDevlop.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "test",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}

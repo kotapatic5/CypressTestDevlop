@@ -1,0 +1,8 @@
+cypress-project/cypress/screenshots/**/*.*
+cypress-project/cypress/videos/**/*.*
+*.mp4
+*.png
+*.xml
+cypress-project/allure-report/**/*.*
+cypress-project/allure-results/**/*.*
+cypress-project/node_modules/**/*
