@@ -5,7 +5,6 @@ import Constants from '../../support/Locators/Locators';
 import  { login } from '../../support/Help/utilit';
 //import { UtilityClass } from '../../support/Help/utility';
 
-//let UtilityHelper = new UtilityClass();
 //var UtilityHelper1 = new UtilityClass();
 //Cypress.env('RETRIES', 1);
 describe('template spec', { retries: { openMode: 3, } }, () => {
