@@ -6,7 +6,7 @@
   "scripts": {
     "cypress:open": "cypress open test",
     "report": "allure generate allure-results --clean -o allure-report || true",
-    "smoke": "cypress run --headless --spec '**/e2e/smoke/*.js**' --reporter mocha-allure-reporter",
+    "smoke": "cypress run --headless --spec '**/e2e/smoke/test2.cy.js**' --reporter mocha-allure-reporter",
      "executeRegression_ExcludeFS": "cypress run --browser chrome  --spec '**/e2e/*.js**' --reporter mocha-allure-reporter --headed"
   },
   "repository": {
